@@ -27,6 +27,12 @@
 			echo afficherMoyenne($_POST['nbr1'],$_POST['nbr2'],$_POST['nbr3']);
 		?>
 	</h1>
+	<h1>
+		<?php
+		// Appel de la fonction
+			echo afficherMoyenne($_POST['nbr1'],$_POST['nbr2'],$_POST['nbr3']);
+		?>
+	</h1>
 
 </body>
 </html>
