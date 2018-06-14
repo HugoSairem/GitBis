@@ -21,18 +21,12 @@
 		<input type="number" name="nbr3" min="1" max="100">
 		<input type="submit" value="Submit">
 	</form>
-	<h1>
+	<h2>
 		<?php
 		// Appel de la fonction
 			echo afficherMoyenne($_POST['nbr1'],$_POST['nbr2'],$_POST['nbr3']);
 		?>
-	</h1>
-	<h1>
-		<?php
-		// Appel de la fonction
-			echo afficherMoyenne($_POST['nbr1'],$_POST['nbr2'],$_POST['nbr3']);
-		?>
-	</h1>
+	</h2>
 
 </body>
 </html>
